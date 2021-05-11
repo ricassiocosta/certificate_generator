@@ -11,6 +11,11 @@
     "@middy/core": "^1.5.2",
     "@middy/http-json-body-parser": "^1.5.2",
     "aws-sdk": "^2.905.0",
+    "chrome-aws-lambda": "^9.1.0",
+    "dayjs": "^1.10.4",
+    "handlebars": "^4.7.7",
+    "puppeteer": "^9.1.1",
+    "puppeteer-core": "^9.1.1",
     "source-map-support": "^0.5.19"
   },
   "devDependencies": {
