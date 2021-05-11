@@ -4,11 +4,13 @@
   "description": "Serverless aws-nodejs-typescript template",
   "scripts": {
     "dev": "serverless offline",
-    "deploy": "serverless deploy -v"
+    "deploy": "serverless deploy -v",
+    "dynamo:start": "serverless dynamodb start"
   },
   "dependencies": {
     "@middy/core": "^1.5.2",
     "@middy/http-json-body-parser": "^1.5.2",
+    "aws-sdk": "^2.905.0",
     "source-map-support": "^0.5.19"
   },
   "devDependencies": {
